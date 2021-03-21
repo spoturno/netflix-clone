@@ -24,7 +24,7 @@ useEffect(() => {
       }));
     }else{
       //logged out
-      dispatch(logout)
+      dispatch(logout())
     }
   });
   return unsubscribe;
